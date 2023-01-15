@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    public static void Main1()
+    public static void Main()
     {
         Random random = new Random();
         double n = Convert.ToDouble(Console.ReadLine());
@@ -34,7 +34,7 @@ class Program
         Console.WriteLine(st_prob);
     }
 
-    public static void Main()
+    public static void Main1()
     {
         const double th_prob = 0.97;
         Random random = new Random();
